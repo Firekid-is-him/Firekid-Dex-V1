@@ -18,6 +18,5 @@
     "node-shazam": "^1.0.0",
     "pino": "^8.19.0",
     "sharp": "^0.33.5"
-    "youtube-dl-exec": "^3.0.12"
   }
 }
