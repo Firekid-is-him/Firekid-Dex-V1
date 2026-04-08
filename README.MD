@@ -1,203 +1,183 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=3000&pause=1000&color=25D366&center=true&vCenter=true&width=600&lines=Firekid+Dex+V1+%F0%9F%94%A5;WhatsApp+Bot+%E2%80%A2+Powered+by+Baileys;Deploy+in+Minutes" alt="Typing SVG" />
+<img src="https://i.ibb.co/hJhwwGT0/d2d13a1b-7457-4bbc-9f7b-be32083723ba.jpg" alt="Firekid Dex V1" width="100%" />
+
+<br/><br/>
+
+![Version](https://img.shields.io/badge/version-1.0.0-25D366?style=for-the-badge)
+![Platform](https://img.shields.io/badge/WhatsApp-Bot-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)
+![Node](https://img.shields.io/badge/Node.js-%3E%3D18-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-orange?style=for-the-badge)
 
 <br/>
 
-![Version](https://img.shields.io/badge/version-1.0.0-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)
-![Platform](https://img.shields.io/badge/platform-WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)
-![Node](https://img.shields.io/badge/node-%3E%3D18-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![License](https://img.shields.io/badge/license-MIT-orange?style=for-the-badge)
+A powerful, self-hostable WhatsApp bot built on Baileys.<br/>
+Deploy to Render in minutes — no technical experience needed.
 
 <br/>
 
-> ⚡ A powerful, self-hostable WhatsApp bot built on Baileys — deploy to Render in minutes, no technical experience needed.
+[![Fork on GitHub](https://img.shields.io/badge/Fork_This_Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Firekid-is-him/Firekid-Dex-V1/fork)
+&nbsp;
+[![Join Support Group](https://img.shields.io/badge/WhatsApp_Support-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/JGI7jOeklfB26dCYeYRr7E?mode=hqctcla)
 
 </div>
 
 ---
 
-## 🚀 Quick Deploy Guide
-
-Follow these **4 simple steps** to get your bot live:
+## Deploy in 4 Steps
 
 ```
-STEP 1 → Fork this repo
-STEP 2 → Create a Render account
-STEP 3 → Download & fill .env
-STEP 4 → Deploy & pair your WhatsApp
+Step 1  →  Fork this repository
+Step 2  →  Create a Render account and connect GitHub
+Step 3  →  Get your Session ID and Firekid Key
+Step 4  →  Add environment variables and deploy
 ```
 
 ---
 
-## 📋 Step 1 — Fork This Repository
+## Step 1 — Fork This Repository
 
-Click the button below to fork this repo to your GitHub account:
+Click the button below to fork this repo to your GitHub account.
 
 <div align="center">
 
-[![Fork Repo](https://img.shields.io/badge/🍴%20Fork%20This%20Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Firekid-is-him/Firekid-Dex-V1/fork)
+[![Fork on GitHub](https://img.shields.io/badge/Fork_This_Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Firekid-is-him/Firekid-Dex-V1/fork)
 
 </div>
 
-> **Don't have a GitHub account?** [Create one free here](https://github.com/signup) — it takes 60 seconds.
+Don't have a GitHub account? [Create one free here.](https://github.com/signup)
 
-After forking, you'll have your own copy of the bot at:
+After forking, your copy will be at:
+
 ```
 https://github.com/YOUR_USERNAME/Firekid-Dex-V1
 ```
 
 ---
 
-## 🌐 Step 2 — Create a Render Account & Deploy
+## Step 2 — Create a Render Account
 
-Render is a free cloud platform where your bot will run 24/7.
+Render is the free cloud platform where your bot will run.
 
 <div align="center">
 
-[![Deploy to Render](https://img.shields.io/badge/🚀%20Go%20to%20Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)](https://render.com)
+[![Go to Render](https://img.shields.io/badge/Go_to_Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)](https://render.com)
 
 </div>
 
-**Once on Render:**
-
-1. Click **"Get Started for Free"** and sign up
-2. Click **"Connect GitHub"** to link your GitHub account
-   - Or paste your forked repo URL manually:
+1. Sign up at [render.com](https://render.com)
+2. Click **New** → **Web Service**
+3. Connect your GitHub account and select your forked `Firekid-Dex-V1` repo
+   - Or paste your fork URL directly:
      ```
      https://github.com/YOUR_USERNAME/Firekid-Dex-V1
      ```
-3. Select **"New Web Service"**
-4. Choose your forked `Firekid-Dex-V1` repo
-5. Leave the default settings (Render auto-detects Node.js)
-6. **Don't deploy yet** — you need your `.env` values first ⬇️
+4. Leave all build settings as default — Render detects Node.js automatically
+5. **Do not deploy yet.** Complete Step 3 first.
 
 ---
 
-## ⚙️ Step 3 — Configure Your Environment
+## Step 3 — Get Your Credentials
 
-### 3a. Download the Example Environment File
+You need two things: a **Firekid Key** and a **Session ID**. Both come from the Firekid website.
 
 <div align="center">
 
-[![Download .env.example](https://img.shields.io/badge/⬇️%20Download%20.env.example-FF6B6B?style=for-the-badge&logo=dotenv&logoColor=white)](https://github.com/Firekid-is-him/Firekid-Dex-V1/raw/main/.env.example)
+[![Firekid Website](https://img.shields.io/badge/firekidofficial.name.ng-FF6600?style=for-the-badge&logo=firefoxbrowser&logoColor=white)](https://firekidofficial.name.ng)
 
 </div>
 
-Open the file — it looks something like this:
+**Get your Firekid Key:**
 
-```env
-FIREKID_KEY=your_firekid_key_here
-SESSION_ID=your_session_id_here
-BOT_NAME=Firekid Dex
-PREFIX=.
-OWNER_NUMBER=2348XXXXXXXXX
-```
+1. Visit [firekidofficial.name.ng](https://firekidofficial.name.ng) and log in or create an account
+2. Go to your **Dashboard**
+3. Copy your API key — it starts with `fk_`
+
+**Get your Session ID:**
+
+1. On the same site, click **Pair Bot** or **Get Session ID**
+2. Scan the QR code with WhatsApp:
+   - Open WhatsApp → **Linked Devices** → **Link a Device**
+3. Your Session ID will be generated — copy it (starts with `firekidxmd_`)
+
+> Keep your Session ID private. Anyone with it can control your bot.
 
 ---
 
-### 3b. Get Your Firekid API Key
+## Step 4 — Configure and Deploy
 
-Visit the official Firekid website to get your key:
+### Download the environment file
 
 <div align="center">
 
-[![Get Firekid Key](https://img.shields.io/badge/🔑%20firekidofficial.name.ng-FF6600?style=for-the-badge)](https://firekidofficial.name.ng)
+[![Download .env.example](https://img.shields.io/badge/Download_.env.example-FF6B6B?style=for-the-badge&logo=dotenv&logoColor=white)](https://github.com/Firekid-is-him/Firekid-Dex-V1/raw/main/.env.example)
 
 </div>
 
-1. Go to [https://firekidofficial.name.ng](https://firekidofficial.name.ng)
-2. Create an account or log in
-3. Navigate to **Dashboard → API Key**
-4. Copy your `FIREKID_KEY` and paste it into your `.env` file
+### Add your variables to Render
+
+Go to your Web Service → **Environment** tab → **Add Environment Variable** and fill in the following:
+
+| Variable | Value |
+|---|---|
+| `SESSION_ID` | Your session ID — starts with `firekidxmd_` |
+| `OWNER_NUMBER` | Your number with country code, e.g. `2348012345678` |
+| `BOT_MODE` | `prod` |
+| `RENDER_EXTERNAL_URL` | Your Render app URL, e.g. `https://your-bot.onrender.com` |
+| `PORT` | `3000` |
+| `FIREKID_KEY` | Your API key — starts with `fk_` |
+
+Click **Save Changes**, then click **Deploy**.
+
+Once Render shows **Live** — your bot is online.
 
 ---
 
-### 3c. Get Your WhatsApp Session ID
+## Verify It's Working
 
-Your Session ID is how the bot connects to your WhatsApp number.
+Send any command to your bot on WhatsApp. If it replies, you're live.
+
+Need help? Join the support group:
 
 <div align="center">
 
-[![Get Session ID](https://img.shields.io/badge/📱%20Get%20Session%20ID-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://firekidofficial.name.ng)
+[![Join Support Group](https://img.shields.io/badge/Join_Support_Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/JGI7jOeklfB26dCYeYRr7E?mode=hqctcla)
 
 </div>
 
-1. Go to [https://firekidofficial.name.ng](https://firekidofficial.name.ng)
-2. Log in to your account
-3. Click **"Pair Bot"** or **"Get Session ID"**
-4. Scan the QR code with your WhatsApp  
-   *(WhatsApp → Linked Devices → Link a Device)*
-5. Your `SESSION_ID` will be generated — copy it
-
-> ⚠️ **Keep your Session ID private.** Anyone with it can control your bot.
-
 ---
 
-## 🏁 Step 4 — Add ENV to Render & Deploy
-
-Back on Render:
-
-1. Go to your Web Service → **"Environment"** tab
-2. Click **"Add Environment Variable"**
-3. Add all variables from your `.env` file one by one:
-
-| Key | Value |
-|-----|-------|
-| `FIREKID_KEY` | *Your key from firekidofficial.name.ng* |
-| `SESSION_ID` | *Your session ID from firekidofficial.name.ng* |
-| `BOT_NAME` | `Firekid Dex` *(or your custom name)* |
-| `PREFIX` | `.` |
-| `OWNER_NUMBER` | *Your number with country code, e.g. `2348012345678`* |
-
-4. Click **"Save Changes"**
-5. Click **"Deploy"** 🚀
-
-Render will build and start your bot. Once it says **"Live"** — your bot is online!
-
----
-
-## ✅ Verify It's Working
-
-Send this message to your bot on WhatsApp:
-
-```
-.menu
-```
-
-If the bot replies — **you're live!** 🎉
-
----
-
-## 🆘 Troubleshooting
+## Troubleshooting
 
 | Problem | Fix |
-|--------|-----|
-| Bot not responding | Check that `SESSION_ID` is set correctly in Render |
-| Session expired | Re-pair on [firekidofficial.name.ng](https://firekidofficial.name.ng) and update `SESSION_ID` |
-| Render build failing | Make sure you forked the repo correctly and Render is connected to GitHub |
-| Invalid Firekid Key | Double-check the key copied from your dashboard |
+|---|---|
+| Bot not responding | Confirm `SESSION_ID` is correctly set in Render environment |
+| Session expired | Re-pair on firekidofficial.name.ng and update `SESSION_ID` in Render |
+| Render build failing | Make sure your fork is properly connected to Render |
+| Invalid Firekid Key | Re-copy the key from your dashboard — it must start with `fk_` |
+| Wrong owner number | Use full international format with no `+`, e.g. `2348012345678` |
 
 ---
 
-## 🔗 Important Links
+## Important Links
 
 | Resource | Link |
-|----------|------|
-| 🍴 Fork Repo | [github.com/Firekid-is-him/Firekid-Dex-V1/fork](https://github.com/Firekid-is-him/Firekid-Dex-V1/fork) |
-| 🌐 Deploy Platform | [render.com](https://render.com) |
-| 🔑 Firekid Website | [firekidofficial.name.ng](https://firekidofficial.name.ng) |
-| 📦 Source Repo | [github.com/Firekid-is-him/Firekid-Dex-V1](https://github.com/Firekid-is-him/Firekid-Dex-V1) |
+|---|---|
+| Fork Repo | [github.com/Firekid-is-him/Firekid-Dex-V1/fork](https://github.com/Firekid-is-him/Firekid-Dex-V1/fork) |
+| Render | [render.com](https://render.com) |
+| Firekid Website | [firekidofficial.name.ng](https://firekidofficial.name.ng) |
+| Support Group | [Join on WhatsApp](https://chat.whatsapp.com/JGI7jOeklfB26dCYeYRr7E?mode=hqctcla) |
 
 ---
 
 <div align="center">
 
-Made with ❤️ by **Firekid**
+Made by **Firekid**
 
-[![Website](https://img.shields.io/badge/🌍%20firekidofficial.name.ng-FF6600?style=for-the-badge)](https://firekidofficial.name.ng)
-[![GitHub](https://img.shields.io/badge/GitHub-Firekid--is--him-181717?style=for-the-badge&logo=github)](https://github.com/Firekid-is-him)
+[![Website](https://img.shields.io/badge/firekidofficial.name.ng-FF6600?style=for-the-badge&logo=firefoxbrowser&logoColor=white)](https://firekidofficial.name.ng)
+&nbsp;
+[![GitHub](https://img.shields.io/badge/Firekid--is--him-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Firekid-is-him)
 
-*Star ⭐ the repo if this helped you!*
+If this helped you, drop a star on the repo.
 
 </div>
